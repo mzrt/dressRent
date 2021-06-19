@@ -2,8 +2,11 @@
   "name": "dressRent",
   "version": "1.0.0",
   "description": "dress rent",
+  "repository": "git@github.com:mzrt/dressRent.git",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -11,5 +14,13 @@
     "dress"
   ],
   "author": "Evgeniy Tortumashev<johnnytort@yandex.ru>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.14"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.7"
+  }
 }
