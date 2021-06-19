@@ -1,0 +1,15 @@
+{
+  "name": "dressRent",
+  "version": "1.0.0",
+  "description": "dress rent",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rent",
+    "dress"
+  ],
+  "author": "Evgeniy Tortumashev<johnnytort@yandex.ru>",
+  "license": "ISC"
+}
